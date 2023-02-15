@@ -1,5 +1,7 @@
 ![](doc/fedot-industrial.png)
-## Time series classification experiments
+
+Time series classification experiments
+=====================================
 
 The repository contains the experimental studies for "Evolutionary 
 automated machine learning approach for time series classification" 
@@ -9,12 +11,12 @@ The experimental was conducted on the datasets taken from [UEA & UCR Time Series
 
 * **For binary classification** – BirdChicken, Chinatown, Computers, Coffee, DistalPhalanxOutlineCorrect
 Earthquakes, ECG200, FordA, GunPointAgeSpan, GunPointMaleVersusFemale, GunPointOldVersusYoung, 
-Ham, Herring, ItalyPowerDemand, Lightning2, MiddlePhalanx0utlineCorrect, MoteStrain, 
-Phalanges0utlinesCorrect, PowerCons, ProximalPhalanxOutlineCorrect, ShapeletSim, SonyAIBORobotSurface1, 
+Ham, Herring, ItalyPowerDemand, Lightning2, MiddlePhalanxOutlineCorrect, MoteStrain, 
+PhalangesOutlinesCorrect, PowerCons, ProximalPhalanxOutlineCorrect, ShapeletSim, SonyAIBORobotSurface1, 
 SonyAIBORobotSurface2, Strawberry, ToeSegmentation2, TwoLegECG, Wafer, WormsTwoC1ass, Yoga
 
 * **For multiclass classification** – ACSF1, Adiac, ArrowHead, Beef, Car, ChlorineConcentration, 
-CricketX, CricketY, CricketZ, Crop, DistalPhalanxTW, DistalPhalanx0utlineAgeGroup, ECG5000, 
+CricketX, CricketY, CricketZ, Crop, DistalPhalanxTW, DistalPhalanxOutlineAgeGroup, ECG5000, 
 ElectricDevices, EOGVerticalSignal, EthanolLevel, FaceFour, Haptics, InlineSkate, LargeKitchenAppliances, 
 Lightning7, Mallat, Meat, MiddlePhalanxOutlineAgeGroup, MiddlePhalanxTW, OliveOil, Phoneme, Plane, 
 ProximalPhalanxOutlineAgeGroup, ProximalPhalanxTW, RefrigerationDevices, Rock, ScreenType, 
@@ -23,7 +25,10 @@ SwedishLeaf, SyntheticControl, Trace, UMD
 
 FEDOT.Industrial framework is available in [main repository](https://github.com/aimclub/Fedot.Industrial).
 
-#### Results for multiclass classification 
+To parse the results of the experiments, please use provided script ``results_parser.py``.
+
+Results for multiclass classification
+------------------------------------
 
 | Dataset                        | SOTA result | SOTA algorithm | Baseline model | FEDOT result | Feature generation algorithm                          |
 | ------------------------------ | ----------- | -------------- | -------------- | ------------ | ----------------------------------------------------- |
@@ -66,7 +71,8 @@ FEDOT.Industrial framework is available in [main repository](https://github.com/
 | UMD                            | 0.993       | OS-CNN         | 0.892          | 1.0          | Ensemble: WindowQuantile, WindowSpectral              |
 | **Average values**                 | **0.839**       |                | **0.574**          | **0.750**        |                                                       |
 
-### Results for binary classification
+Results for binary classification
+---------------------------------
 
 | Dataset                       | SOTA result | SOTA algorithm  | Baseline model | FEDOT result | Feature generation algorithm       |
 | ----------------------------- | ----------- | --------------- | -------------- | ------------ | ---------------------------------- |
@@ -100,3 +106,21 @@ FEDOT.Industrial framework is available in [main repository](https://github.com/
 | WormsTwoC1ass                 | 0.904       | BOSS            | 0.652          | 0.715        | Topological                        |
 | Yoga                          | 0.975       | S-BOSS          | 0.730          | 0.797        | WindowQuantile                     |
 | **Average values**                | **0.946**       |                 | **0.774**          | **0.873**        |                                    |
+
+Citation
+--------
+
+Here will be provided a list of citations for the project as soon as articles
+will be published.
+
+So far you can use citation for this repository:
+
+.. code-block:: bibtex
+
+    @online{fedot_industrial,
+      author = {Revin, Ilya and Potemkin, Vadim and Balabanov, Nikita and Nikitin, Nikolay},
+      title = {FEDOT.Industrial - Framework for automated time series analysis},
+      year = 2022,
+      url = {https://github.com/ITMO-NSS-team/Fedot.Industrial},
+      urldate = {2022-05-05}
+    }
