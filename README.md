@@ -70,34 +70,33 @@ FEDOT.Industrial framework is available in [main repository](https://github.com/
 
 | Dataset                       | SOTA result | SOTA algorithm  | Baseline model | FEDOT result | Feature generation algorithm       |
 | ----------------------------- | ----------- | --------------- | -------------- | ------------ | ---------------------------------- |
-| BirdChicken                   | 0.999       | TS-CHIEF        | 0.8            | 1            | Statistical                        |
+| BirdChicken                   | 0.999       | TS-CHIEF        | 0.800          | 1.0          | Statistical                        |
 | Chinatown                     | 0.993       | ROCKET          | 0.896          | 0.995        | WindowQuantile                     |
 | Computers                     | 0.927       | InceptionTime   | 0.744          | 0.766        | Quantile                           |
-| Coffee                        | 1           | OS-CNN          | 0.933          | 1            | WindowSpectral                     |
+| Coffee                        | 1.0         | OS-CNN          | 0.933          | 1.0          | WindowSpectral                     |
 | DistalPhalanxOutlineCorrect   | 0.914       | ROCKET          | 0.769          | 0.771        | WindowQuanti1e                     |
-| Earthquakes                   | 0.693       | ProximityForest | 0.509          | 0.74         | Quantile                           |
-| ECG200                        | 0.957       | InceptionTime   | 0.82           | 0.894        | Ensemble: Quantile, WindowQuantile |
-| FordA                         | 0.994       | WEASEL          | 0.705          | 0.97         | Spectral                           |
+| Earthquakes                   | 0.693       | ProximityForest | 0.509          | 0.740        | Quantile                           |
+| ECG200                        | 0.957       | InceptionTime   | 0.820          | 0.894        | Ensemble: Quantile, WindowQuantile |
+| FordA                         | 0.994       | WEASEL          | 0.705          | 0.970        | Spectral                           |
 | GunPointAgeSpan               | 0.999       | TS-CHIEF        | 0.968          | 0.971        | Spectral                           |
-| GunPointMaleVersusFemale      | 1           | OS-CNN          | 0.997          | 1            | Spectral                           |
-| GunPointOldVersusYoung        | 1           | OS-CNN          | 1              | 1            | Spectral                           |
-| Ham                           | 0.706       | OS-CNN          | 0.6            | 0.724        | WindowQuanti1e                     |
+| GunPointMaleVersusFemale      | 1.0         | OS-CNN          | 0.997          | 1.0          | Spectral                           |
+| GunPointOldVersusYoung        | 1.0         | OS-CNN          | 1.0            | 1.0          | Spectral                           |
+| Ham                           | 0.706       | OS-CNN          | 0.600          | 0.724        | WindowQuanti1e                     |
 | Herring                       | 0.686       | STC             | 0.653          | 0.626        | Topological                        |
 | ItalyPowerDemand              | 0.992       | TS-CHIEF        | 0.723          | 0.993        | Ensemble: WindowSpectral, ECM      |
 | Lightning2                    | 0.928       | InceptionTime   | 0.629          | 0.689        | WindowSpectral                     |
 | MiddlePhalanxOutlineCorrect   | 0.928       | ROCKET          | 0.708          | 0.803        | Window Quantile                    |
 | MoteStrain                    | 0.984       | HIVE-COTE v1.0  | 0.804          | 0.834        | Spectral                           |
 | PhalangesOutlinesCorrect      | 0.929       | InceptionTime   | 0.711          | 0.818        | Window Quantile                    |
-| PowerCons                     | 1           | TSF             | 0.95           | 1            | Window Spectral                    |
+| PowerCons                     | 1.0         | TSF             | 0.950          | 1.0          | Window Spectral                    |
 | ProximalPhalanxOutlineCorrect | 0.946       | InceptionTime   | 0.709          | 0.848        | Window Quantile                    |
-| ShapeletSim                   | 1           | HIVE-COTE v1.0  | 0.489          | 1            | Topological                        |
+| ShapeletSim                   | 1.0         | HIVE-COTE v1.0  | 0.489          | 1.0          | Topological                        |
 | SonyAIBORobotSurface1         | 0.998       | ResNet          | 0.849          | 0.892        | Window Quantile                    |
-| SonyAIBORobotSurface2         | 0.997       | ResNet          | 0.77           | 0.824        | Window Quantile                    |
+| SonyAIBORobotSurface2         | 0.997       | ResNet          | 0.770          | 0.824        | Window Quantile                    |
 | Strawberry                    | 0.997       | ROCKET          | 0.905          | 0.924        | Spectral                           |
 | ToeSegmentation2              | 0.995       | HIVE-COTE v1.0  | 0.622          | 0.869        | Spectral                           |
-| TwoLeadECG                    | 1           | ResNet          | 0.846          | 0.919        | Quantile                           |
-| Wafer                         | 1           | TS-CHIEF        | 0.944          | 1            | Quantile                           |
+| TwoLeadECG                    | 1.0         | ResNet          | 0.846          | 0.919        | Quantile                           |
+| Wafer                         | 1.0         | TS-CHIEF        | 0.944          | 1.0          | Quantile                           |
 | WormsTwoC1ass                 | 0.904       | BOSS            | 0.652          | 0.715        | Topological                        |
-| Yoga                          | 0.975       | S-BOSS          | 0.73           | 0.797        | WindowQuantile                     |
+| Yoga                          | 0.975       | S-BOSS          | 0.730          | 0.797        | WindowQuantile                     |
 | **Average values**                | **0.946**       |                 | **0.774**          | **0.873**        |                                    |
-
