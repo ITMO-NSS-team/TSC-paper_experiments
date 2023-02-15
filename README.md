@@ -1,6 +1,6 @@
 ![](doc/fedot-industrial.png)
 ## Time series classification experiments
-***
+
 The repository contains the experimental studies for "Evolutionary 
 automated machine learning approach for time series classification" 
 paper.
