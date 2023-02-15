@@ -1,1 +1,8 @@
-Here will be the link to install FEDOT.Industrial
+pip~=21.3.1
+wheel~=0.37.1
+pytz~=2022.7.1
+numpy~=1.24.2
+setuptools~=60.2.0
+pandas~=1.5.3
+python-dateutil~=2.8.2
+six~=1.16.0

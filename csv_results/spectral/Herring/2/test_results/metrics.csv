@@ -1,0 +1,6 @@
+,index,0,1
+0,0,f1,0.563
+1,1,roc_auc,0.513
+2,2,accuracy,0.516
+3,3,logloss,1.032
+4,4,precision,0.513
